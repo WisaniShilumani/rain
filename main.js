@@ -15,11 +15,6 @@ const CARD_VALUES = [
 ];
 const CARD_TYPES = ["Clubs", "Diamonds", "Hearts", "Spades"];
 
-const x = {
-  Clubs: "",
-  Diamonds: "",
-};
-
 const generateAllPossibilities = () => {
   const possibilities = [];
   CARD_VALUES.forEach((value) => {
