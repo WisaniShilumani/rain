@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <script src="./main.js"></script>
+
+  <style>
+    .cup-wrapper {
+      display: flex;
+      width: 200px;
+      justify-content: space-between;
+    }
+
+    .cup {
+      height: 40px;
+      width: 40px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cup span {
+      height: 16px;
+      width: 16px;
+      border-radius: 8px;
+      background: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test</h1>
+  <div class="cup-wrapper">
+    <div id="cup1" class="cup"></div>
+    <div id="cup2" class="cup"></div>
+    <div id="cup3" class="cup"></div>
+  </div>
+  <script src="./game.js"></script>
+  <button onclick="reset()">RESET</button>
+</body>
